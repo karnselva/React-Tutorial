@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nameste react</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+  
+    <!-- crossorigin is used to make communication between different origin -->
+
+    <!-- contain code in js written by facebook developer 
+    it has code related to core react like jsx element , speed of code etc -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- it has code in js related to dom maipulation in browser -->
+    <!-- it varies for native , js and 3d react -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- 
+    <script>
+
+        const heading = React.createElement("h3",{},"hello world from react js  html scripting...");
+
+        // heading is react element (not a real html element) which is a object has all data in it as a value of key
+        console.log(heading,"heading");
+
+        const root = ReactDOM.createRoot(document.getElementById("root")) ; 
+        // root is a react dom container created from real dom container where we will going to inject
+        // react element in future
+        console.log(root , "root");
+
+        // render is dom method used to convert selectiveley changed react element to html element and replace the
+        content inside root
+        root.render(heading);
+
+    </script> -->
+
+    <script src="./index.js" ></script>
+</body>
+</html>
