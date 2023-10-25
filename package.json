@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is React Tutorial",
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karnselva/React-Tutorial.git"
+  },
+  "author": "karan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karnselva/React-Tutorial/issues"
+  },
+  "homepage": "https://github.com/karnselva/React-Tutorial#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  }
+}
